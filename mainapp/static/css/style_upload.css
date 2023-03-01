@@ -1,0 +1,31 @@
+h1 {
+    font-size: 36px;
+    margin-top: 0;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #27ae60;
+  }
